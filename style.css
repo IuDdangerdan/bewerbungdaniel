@@ -32,3 +32,15 @@ a.menu-visual .visual-label{left:23px;right:23px;bottom:17px;display:flex;justif
 
 .menu-visual{min-height:490px;padding:40px 30px 85px}
 @media(max-width:760px){.menu-visual{min-height:475px}}
+
+/* Larger section titles and direct contact options. */
+h2{font-size:clamp(54px,6.2vw,88px)}
+.strengths-heading{font-size:36px}
+.project-copy h3{font-size:48px}
+.social-links{display:flex;flex-wrap:wrap;gap:16px;margin-top:25px}
+.social-links a{display:inline-flex;justify-content:space-between;align-items:center;gap:36px;border:1px solid #fff6e999;padding:13px 20px;font-size:17px;font-weight:600;transition:background .2s,color .2s}
+.social-links a:hover{background:var(--paper);color:var(--orange)}
+.social-links a span{font-size:24px}
+.contact .instagram-note{font-size:13px;max-width:570px;margin-top:20px;color:#fff1e8}
+@media(max-width:1100px){.project-copy h3{font-size:40px}}
+@media(max-width:760px){h2{font-size:clamp(46px,10vw,64px)}.strengths-heading{font-size:32px}.project-copy h3{font-size:39px}.social-links{gap:12px;margin-top:22px}.social-links a{font-size:16px;padding:12px 17px;gap:25px}.contact .instagram-note{font-size:12px;line-height:1.6}.about-layout{gap:25px}}
