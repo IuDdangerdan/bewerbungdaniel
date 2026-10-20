@@ -46,3 +46,5 @@ h2{font-size:clamp(54px,6.2vw,88px)}
 @media(max-width:760px){h2{font-size:clamp(46px,10vw,64px)}.strengths-heading{font-size:32px}.project-copy h3{font-size:39px}.social-links{gap:12px;margin-top:22px}.social-links a{font-size:16px;padding:12px 17px;gap:25px}.contact .instagram-note{font-size:12px;line-height:1.6}.about-layout{gap:25px}}
 
 .scholarship h3{color:var(--orange)}
+
+.brand-symbol{display:block;color:var(--orange);font-size:48px;line-height:1;font-weight:400;letter-spacing:0}
