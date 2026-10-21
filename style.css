@@ -56,3 +56,7 @@ h2{font-size:clamp(54px,6.2vw,88px)}
 .project-map>.project-copy{grid-column:2;grid-row:1}
 .project-map>.project-photos{grid-column:1;grid-row:1}
 @media(max-width:760px){.project-map>.project-copy{grid-column:1;grid-row:1}.project-map>.project-photos{grid-column:1;grid-row:2}}
+
+.project-menu>.project-copy{grid-column:2;grid-row:1}
+.project-menu>.menu-visual{grid-column:1;grid-row:1}
+@media(max-width:760px){.project-menu>.project-copy{grid-column:1;grid-row:1}.project-menu>.menu-visual{grid-column:1;grid-row:2}}
