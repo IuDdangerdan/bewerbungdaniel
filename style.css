@@ -48,3 +48,11 @@ h2{font-size:clamp(54px,6.2vw,88px)}
 .scholarship h3{color:var(--orange)}
 
 .brand-symbol{display:block;color:var(--orange);font-size:48px;line-height:1;font-weight:400;letter-spacing:0}
+
+/* SVG icons render identically across mobile and desktop. */
+.icon{display:inline-block;width:1em;height:1em;vertical-align:-.14em;flex:none;overflow:visible}
+.brand-symbol .icon{display:block}
+.icon-smile{margin-left:.15em}
+.project-map>.project-copy{grid-column:2;grid-row:1}
+.project-map>.project-photos{grid-column:1;grid-row:1}
+@media(max-width:760px){.project-map>.project-copy{grid-column:1;grid-row:1}.project-map>.project-photos{grid-column:1;grid-row:2}}
