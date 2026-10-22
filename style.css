@@ -60,3 +60,24 @@ h2{font-size:clamp(54px,6.2vw,88px)}
 .project-menu>.project-copy{grid-column:2;grid-row:1}
 .project-menu>.menu-visual{grid-column:1;grid-row:1}
 @media(max-width:760px){.project-menu>.project-copy{grid-column:1;grid-row:1}.project-menu>.menu-visual{grid-column:1;grid-row:2}}
+
+/* A quieter portfolio: one clear introduction, fewer labels, larger body copy. */
+.hero h1{font-size:clamp(80px,8.1vw,122px);margin:0 0 20px;line-height:.94}
+.hero-tagline{font-family:var(--serif);font-style:italic;font-size:31px;color:var(--orange);margin-bottom:28px;letter-spacing:-.04em}
+.hero-intro{font-size:21px;max-width:485px}
+.hero-text{font-size:17px;max-width:435px;margin:22px 0 30px}
+.about-copy .lead{font-size:25px}
+.about-copy p{font-size:17px;line-height:1.7;margin-top:24px}
+.project-copy p{font-size:17px;line-height:1.75}
+.project-copy h3{margin-top:0}
+.timeline p{font-size:16px;max-width:440px}
+.timeline-date{font-size:11px}
+.scholarship p,.award-row p{font-size:16px;line-height:1.65}
+.scholarship h3{font-size:24px}
+.music-copy p,.video-copy p{font-size:16px;line-height:1.7}
+.music-story{margin-top:50px}
+.menu-paper{min-height:285px}
+.menu-visual{min-height:425px}
+.section-heading{margin-bottom:48px}
+@media(max-width:1100px){.hero h1{font-size:92px}.hero-intro{font-size:20px}}
+@media(max-width:760px){.hero h1{font-size:clamp(76px,18vw,105px)}.hero-tagline{font-size:28px;margin-bottom:23px}.hero-intro{font-size:19px}.hero-text{font-size:16px}.about-copy .lead{font-size:22px}.about-copy p,.project-copy p{font-size:16px}.timeline p,.award-row p,.scholarship p,.music-copy p,.video-copy p{font-size:15px}.scholarship h3{font-size:23px}.section{padding-top:58px;padding-bottom:58px}.section-heading{margin-bottom:30px}.menu-visual{min-height:420px}.music-story{margin-top:35px}.music-copy{gap:20px}.project+.project{margin-top:58px}}
